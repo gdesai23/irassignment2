@@ -1,0 +1,9 @@
+query,relevant_doc_ids
+clinical search ranking,D009 D011 D012 D017 D021
+duplicate documents in corpus,D005 D023 D008
+recommend similar medical documents,D013 D014 D015 D010
+evaluate retrieval system metrics,D016 D020 D024
+web crawling hospital advisories,D008 D022 D024
+privacy metadata health retrieval,D006 D004 D021
+text mining feature extraction,D018 D010 D019
+telemedicine patient monitoring,D002 D003 D020

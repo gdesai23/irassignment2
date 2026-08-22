@@ -1,0 +1,25 @@
+doc_id,title,source,url,category,date,author
+D001,AI clinical triage overview,Demo corpus,https://demo.local/health/ai-triage,Clinical AI,2026-01-04,Group44
+D002,Telemedicine record retrieval,Demo corpus,https://demo.local/health/telemedicine-records,Telemedicine,2026-01-08,Group44
+D003,Remote monitoring search,Demo corpus,https://demo.local/health/remote-monitoring,Monitoring,2026-01-12,Group44
+D004,Clinical knowledge base indexing,Demo corpus,https://demo.local/health/knowledge-base,Indexing,2026-01-16,Group44
+D005,Duplicate discharge summaries,Demo corpus,https://demo.local/health/duplicate-summaries,Deduplication,2026-01-20,Group44
+D006,Privacy in health retrieval,Demo corpus,https://demo.local/health/privacy-retrieval,Privacy,2026-01-24,Group44
+D007,Biomedical query expansion,Demo corpus,https://demo.local/health/query-expansion,Search,2026-01-28,Group44
+D008,Hospital advisory crawling,Demo corpus,https://demo.local/health/advisory-crawling,Crawling,2026-02-01,Group44
+D009,BM25 for medical search,Demo corpus,https://demo.local/health/bm25-medical,Ranking,2026-02-05,Group44
+D010,TF-IDF vector search,Demo corpus,https://demo.local/health/tfidf-vector-search,Text Mining,2026-02-09,Group44
+D011,PageRank over similarity graphs,Demo corpus,https://demo.local/health/pagerank-similarity,Ranking,2026-02-13,Group44
+D012,HITS for health portals,Demo corpus,https://demo.local/health/hits-health-portals,Ranking,2026-02-17,Group44
+D013,Content recommendation for clinicians,Demo corpus,https://demo.local/health/content-recommendation,Recommendation,2026-02-21,Group44
+D014,Collaborative recommendation in hospitals,Demo corpus,https://demo.local/health/collaborative-recommendation,Recommendation,2026-02-25,Group44
+D015,Hybrid recommendation in search,Demo corpus,https://demo.local/health/hybrid-recommendation,Recommendation,2026-03-01,Group44
+D016,IR evaluation metrics,Demo corpus,https://demo.local/health/evaluation-metrics,Evaluation,2026-03-05,Group44
+D017,Diagnosing poor ranking,Demo corpus,https://demo.local/health/poor-ranking,Ranking,2026-03-09,Group44
+D018,Clinical text mining pipeline,Demo corpus,https://demo.local/health/text-mining-pipeline,Text Mining,2026-03-13,Group44
+D019,Health document classification,Demo corpus,https://demo.local/health/document-classification,Classification,2026-03-17,Group44
+D020,Search performance analytics,Demo corpus,https://demo.local/health/performance-analytics,Analytics,2026-03-21,Group44
+D021,RAG chatbot retrieval,Demo corpus,https://demo.local/health/rag-chatbot,Clinical AI,2026-03-25,Group44
+D022,Public health web crawling,Demo corpus,https://demo.local/health/public-health-crawling,Crawling,2026-03-29,Group44
+D023,Near duplicate mitigation,Demo corpus,https://demo.local/health/near-duplicate-mitigation,Deduplication,2026-04-02,Group44
+D024,End-to-end health IR workflow,Demo corpus,https://demo.local/health/end-to-end-ir,Workflow,2026-04-06,Group44
