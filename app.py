@@ -163,9 +163,38 @@ THEME_CSS = """
         color: #9a3412;
         border-color: #fed7aa;
     }
+    div[data-testid="stTabs"] [role="tablist"] {
+        gap: 4px;
+        border-bottom: 2px solid var(--line);
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
     div[data-testid="stTabs"] button {
-        border-radius: 8px 8px 0 0;
-        font-weight: 650;
+        border-radius: 6px 6px 0 0;
+        font-weight: 600;
+        color: var(--text-color) !important; /* Adapts to Dark/Light mode natively */
+        opacity: 0.65; /* Dims inactive tabs instead of using a hardcoded grey */
+        background: transparent !important;
+        border: none !important;
+        border-bottom: 3px solid transparent !important;
+        padding: 8px 16px !important;
+        min-height: 42px;
+        transition: all 0.2s ease-in-out;
+    }
+    div[data-testid="stTabs"] button:hover {
+        opacity: 1; /* Brightens text on hover */
+        background: rgba(15, 118, 110, 0.08) !important; /* Subtle teal background */
+    }
+    div[data-testid="stTabs"] button[aria-selected="true"] {
+        color: var(--teal) !important;
+        opacity: 1;
+        background: transparent !important;
+        border-bottom: 3px solid var(--teal) !important;
+    }
+    div[data-testid="stTabs"] button p {
+        color: inherit !important;
+        font-size: 1rem;
+        margin: 0;
     }
     div[data-testid="stDataFrame"] {
         border: 1px solid var(--line);
@@ -800,8 +829,6 @@ def main() -> None:
     df = active_corpus(use_crawled)
     index = build_index(df, remove_stopwords, stemming, ngram_max)
     render_hero(df, index)
-    render_rubric_map()
-
     tabs = st.tabs(
         [
             "Dashboard",
@@ -837,3 +864,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
